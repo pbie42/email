@@ -73,3 +73,30 @@
     }
   </style>
 </head>
+<body>
+  <!-- Hidden Preheader Text -->
+  <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow:hidden;">
+    Check out our latest poster series, and read about our recent move.
+  </div>
+  <!-- Using 3 table system -->
+  <!-- Outermost container table is used to apply styles that span the full width of an email client window. BG colors for example -->
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td>
+        <!-- The second table acts as a fixed-width container to constrain the width of the emails content -->
+        <table class="responsive-table" border="0" cellpadding="0" cellspacing="0" width="600">
+          <tr>
+            <td>
+              <!-- The innermost table will house all of the content in our email campaign -->
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
